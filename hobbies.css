@@ -1,0 +1,132 @@
+html,body {
+    background-color: #AB77FF;
+    font-size: 16px;
+    color: #FFFFFF;
+    }   
+h1,h2,h3 {
+    font-family: "Playfair Display", Georgia, 'Times New Roman', serif;
+}
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 4.0em;
+    word-spacing: .25em;
+    margin-bottom: 0;
+    text-align: center;
+}
+h2 {
+    font-size: 2.25em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h3 {
+    font-weight: 600;
+    font-size: 1.6em;
+}
+p {
+    font-family: "Open Sans", Verdana, Arial, sans-serif;
+     font-weight: 400;
+     line-height: 1.4em;
+}
+
+.nav {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+ a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: 14px 16px;
+    font-family: "Lato" Verdana, sans-serif;
+}
+header {
+    background: radial-gradient(circle, #296fec 0%, #cb55ff 100%);
+    padding: 10px;
+    width: 100%;
+}
+
+
+.container1 {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+img {
+    max-width: 600px;
+}
+  
+.hob-image {
+    text-align: right;
+    margin-left: 10px;
+    width: 600px;
+    padding: 10px;
+}
+  
+.text {
+    width: 700px;
+    padding: 15px;
+    background-color: #840EE6;
+    border-radius: 10px;
+}
+.container2 {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+    
+.text2 {
+    width: 700px;
+    padding: 15px;
+    background-color: #840EE6;
+    border-radius: 10px;
+}
+.hob-image2 {
+    width: 600px;
+    margin-right: 10px;
+    padding: 10px;
+    border-color: #FFFFFF;
+    border-spacing: 5px;
+}
+.container3 {
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+.hob-image3 {
+    text-align: right;
+    margin-left: 10px;
+    width: 600px;
+    padding: 10px;
+}
+  
+.text3 {
+    width: 700px;
+    padding: 15px;
+    background-color: #840EE6;
+    border-radius: 10px;
+}
+.logo {
+    width: 175px;
+    height: 175px;
+    float: right;
+    margin-right: 10px;
+}
+#home, #about, #hobbies {
+    text-decoration: none;
+}
+#home:hover, #about:hover, #hobbies:hover {
+    text-decoration: underline;
+}
