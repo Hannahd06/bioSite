@@ -93,7 +93,7 @@ p {
 }
 #quote {
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .logo {
     width: 175px;
@@ -107,8 +107,3 @@ p {
 #home:hover, #about:hover, #hobbies:hover {
     text-decoration: underline;
 }
-
-
-
-    
-       
