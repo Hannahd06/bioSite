@@ -2,6 +2,10 @@ html,body {
     background-color: #AB77FF;
     font-size: 16px;
     color: #FFFFFF;
+    width: auto;
+    height:auto;
+    max-width: 200%;
+    max-height: 200%;
 }
 h1,h2 {
     font-family: "Playfair Display", Georgia, 'Times New Roman', serif;
@@ -15,10 +19,19 @@ h1 {
     margin-bottom: 0;
 }
 h2 {
-    font-size: 2.25em;
+    font-size: 3em;
+    text-decoration: underline;
     font-weight: bold;
     text-align: center;
     margin-bottom: 50px;
+    background-color: #075df2;
+    padding: 15px;
+    
+}
+h3 {
+    font-weight: 600;
+    font-size: 1.6em;
+    text-align: center;
 }
 .nav {
     float: center;
@@ -31,14 +44,14 @@ h2 {
 }
  a {
     color: #FFFFFF;
-    font-size: 1.2em;
     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
     padding: 14px 16px;
     font-family: "Lato" Verdana, sans-serif;
-
 }
 header {
-    background: radial-gradient(circle, #296fec 0%, #cb55ff 100%);
+    background: radial-gradient(circle, #075df2 0%, #c032fc 100%);
     padding: 10px;
     width: 100%;
 }
@@ -51,7 +64,8 @@ header {
 }
   
 img {
-    max-width: 600px;
+    max-width: 100%;
+    object-fit: cover;
 }
   
 .portrait-img {
@@ -63,20 +77,23 @@ img {
 }
 #bio-text {
     width: 700px;
-    padding: 15px;
+    padding: 20px;
     margin-left: 20px;
     background-color: #840EE6;
-    border-radius: 10px;
-    text-indent: 2em;
+    border-radius: 10px; 
+    margin-bottom: 80px;  
 }
 p {
+    text-indent: 2em;
     font-family: "Open Sans", Verdana, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4em;
+    margin-bottom: 30px;
 }
 #quote {
     text-align: center;
+    margin-bottom: 0;
 }
 .logo {
     width: 175px;
@@ -90,8 +107,3 @@ p {
 #home:hover, #about:hover, #hobbies:hover {
     text-decoration: underline;
 }
-
-
-
-    
-       
